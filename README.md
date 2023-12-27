@@ -41,7 +41,6 @@ Before training the model, video is converted into frame using opencv locally. V
 
 For annotation, we use makesense.ai platform. The images and annotaed labels are on folder `data/train/iamges` and `data/train/labels`
 
-The original video for the assignment is in `data/video`
 
 ## Training
 Due to limitation in local computing power, model training is conducted on google colab (free tier) with GPU resource. Pre-trained model `Yolov5mu.pt` is used to train the dataset with 30 epoch and image size 640. 
