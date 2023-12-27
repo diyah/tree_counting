@@ -44,3 +44,7 @@ For annotation, we use makesense.ai platform. The images and annotaed labels are
 
 ## Training
 Due to limitation in local computing power, model training is conducted on google colab (free tier) with GPU resource. Pre-trained model `Yolov5mu.pt` is used to train the dataset with 30 epoch and image size 640. 
+
+
+## Inference
+To do prediction or inference from trained model please use `counting.ipynb`. 
